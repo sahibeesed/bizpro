@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section1 {
+  background-image: url(https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg.webp);
+  width: 100%;
+  height: 100vh;
+}
+.section1 .navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  align-items: center;
+}
+.section1 .navbar .right .menu {
+  display: flex;
+  list-style: none;
+  color: white;
+  gap: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.section1 .navbar .right .menu :hover {
+  color: orangered;
+  transition: all 1s;
+}
+.section1 .center {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15%;
+  gap: 15px;
+}
+.section1 .center #one {
+  font-size: 50px;
+}
+.section1 .center #two {
+  font-size: 20px;
+}
+.section1 .center #bt {
+  border: 1px solid orangered;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  color: white;
+  width: 180px;
+  height: 9vh;
+  padding: 3vh 10px;
+  cursor: pointer;
+}
+.section1 .center #bt:hover {
+  border-color: rgb(255, 65, 128);
+  background-color: rgb(255, 65, 128);
+  transition: all 1s;
+}
+
+.section2 .texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.section2 .texts #about {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.section2 .texts #xett {
+  color: orangered;
+  font-size: 30px;
+}
+.section2 .texts #text {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  text-align: center;
+  width: 80%;
+}
+.section2 .cards {
+  display: flex;
+  margin-top: 60px;
+}
+.section2 .cards .kart {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.section2 .cards .kart #bt2 {
+  width: 50%;
+  height: 25vh;
+  border-radius: 50%;
+  border: 1px solid orangered;
+}
+.section2 .cards .kart #bt2:hover {
+  background-color: rgb(255, 38, 0);
+  transition: all 0.5s;
+  color: white;
+}
+.section2 .cards #bt3 {
+  width: 150px;
+  height: 9vh;
+  border: 1px solid orangered;
+  color: grey;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.section2 .cards #web {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.section2 .cards #metn {
+  color: grey;
+  width: 100%;
+  font-size: medium;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.section3 .texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.section3 .texts #about {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.section3 .texts #xett {
+  color: orangered;
+  font-size: 30px;
+}
+.section3 .texts #text {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  text-align: center;
+  width: 80%;
+}
